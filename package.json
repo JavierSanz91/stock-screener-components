@@ -1,0 +1,28 @@
+{
+  "name": "@valuemarkers/stock-screener-components",
+  "version": "0.1.0",
+  "description": "React/TypeScript components for financial data visualization",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["react", "typescript", "finance", "stock-screener", "financial-data", "tailwindcss", "value-investing"],
+  "author": "Javier Sanz <javier@valuemarkers.com>",
+  "license": "MIT",
+  "homepage": "https://valuemarkers.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JavierSanz91/stock-screener-components"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0"
+  }
+}
